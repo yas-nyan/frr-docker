@@ -1,6 +1,6 @@
-FROM quay.io/frrouting/frr:latest
+FROM quay.io/frrouting/frr:master
 
-LABEL maintainer="y-toyota@sakura.ad.jp"
+LABEL maintainer="yas-nyan@sfc.wide.ad.jp"
 
 RUN apk add mtr tcpdump fping curl --update-cache --no-cache
 
