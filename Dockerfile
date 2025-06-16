@@ -1,4 +1,4 @@
-FROM quay.io/frrouting/frr:10.2.3
+FROM quay.io/frrouting/frr:latest
 
 LABEL maintainer="y-toyota@sakura.ad.jp"
 
